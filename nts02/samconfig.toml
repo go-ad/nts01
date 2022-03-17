@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "nts01"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-zss5cp0j954r"
+s3_prefix = "nts01"
+region = "ap-northeast-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
